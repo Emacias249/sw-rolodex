@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  align-items: center;
+  background-color: #000000;
+  background-image: url('./Assets/space_bg.jpg');
+  display: flex;
+  justify-content: center;
+}
+
+.App-header {
+  font-family: "Courier New", Courier, monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: white;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+ol {
+  padding-inline-start: 0;
+}
+
+.search_result {
+  list-style-type: none;
+  border: 2px solid #93B7BE;
+  border-radius: 25px;
+  margin: 7px 0 7px 0;
+  border-color: #FFE81F;
+}
+
+.search_result:hover {
+  background-color: #f7e249;
+  color: #000000;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0.5vh;
+  font-size: 10vh;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #FFE81F;
+}
+
+.search_wrapper {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.searchbar_wrapper {
+  display: inline-block;
+}
+
+.search_bar {
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 25px;
+  padding: 15px 215px 15px 215px;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: visible;
+}
+
+.sabre {
+  height: 100px;
+  margin-right: -3vh;
+  margin-bottom: -4.75vh;
+}
+
+@media screen and (max-width: 769px) {
+  .sabre{
+    display: none;
+  }
+}
+
+.results_wrapper {
+  text-align: center;
+  align-items: center;
+}
+
+.profile_box {
+  align-items: center;
+  align-content: center;
+  align-items: center;
+  border: 4px solid #2f445c;
+  background-color: #94a4b3;
+  border-radius: 10px;
+}
+
+.profile_title {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.profile_row {
+  font-family: "Courier New", Courier, monospace;
+  list-style-type: none;
+  border: 4px solid #2a5a97;
+  background-color: #2a5a97;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-weight: bolder;
+}
