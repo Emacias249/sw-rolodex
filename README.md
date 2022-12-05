@@ -1,4 +1,4 @@
-# Star Wars Coding Challenge
+# Star Wars Rolodex Coding Challenge
 
 ## Using SWAPI: https://swapi.py4e.com/
 
